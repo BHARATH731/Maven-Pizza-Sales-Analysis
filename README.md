@@ -65,16 +65,16 @@ These tables were used to build the data model required for reporting in Power B
 
 To ensure efficiency, scalability, and fast report performance, the following optimization strategies were implemented:
 
- ✅ Implemented a **Star Schema data model** for optimal query performance
- ✅ Maintained proper **Many-to-One relationships** with single-direction filtering
- ✅ Removed unnecessary columns to reduce model size and memory usage
- ✅ Avoided bi-directional relationships to prevent ambiguous filter propagation
- ✅ Used **measures instead of calculated columns** wherever possible
- ✅ Applied `SUMX()` only when row-level calculation was required
- ✅ Minimized complex nested DAX expressions
- ✅ Optimized cardinality by using appropriate key columns
- ✅ Ensured clean data types (Date, Whole Number, Decimal) for efficient storage
- ✅ Avoided redundant intermediate queries in Power Query
+ *✅ Implemented a **Star Schema data model** for optimal query performance
+ *✅ Maintained proper **Many-to-One relationships** with single-direction filtering
+ *✅ Removed unnecessary columns to reduce model size and memory usage
+ *✅ Avoided bi-directional relationships to prevent ambiguous filter propagation
+ *✅ Used **measures instead of calculated columns** wherever possible
+ *✅ Applied `SUMX()` only when row-level calculation was required
+ *✅ Minimized complex nested DAX expressions
+ *✅ Optimized cardinality by using appropriate key columns
+ *✅ Ensured clean data types (Date, Whole Number, Decimal) for efficient storage
+ *✅ Avoided redundant intermediate queries in Power Query
 
 These practices improved dashboard responsiveness and ensured scalable performance for larger datasets.
 
@@ -84,15 +84,15 @@ These practices improved dashboard responsiveness and ensured scalable performan
 
 The technical implementation enables powerful analytical exploration, including:
 
-✔ Dynamic KPI tracking (Revenue, Orders, Quantity Sold)
-✔ Time-based trend analysis (Daily, Monthly, Peak Hours)
-✔ Category and Product-level performance breakdown
-✔ Top-N and Bottom-N product analysis
-✔ Revenue contribution % analysis
-✔ Drill-down functionality across time hierarchies
-✔ Interactive filtering across dimensions
-✔ Identification of peak sales hours and high-demand periods
-✔ Comparative performance analysis across pizza categories and sizes
+*✔ Dynamic KPI tracking (Revenue, Orders, Quantity Sold)
+*✔ Time-based trend analysis (Daily, Monthly, Peak Hours)
+*✔ Category and Product-level performance breakdown
+*✔ Top-N and Bottom-N product analysis
+*✔ Revenue contribution % analysis
+*✔ Drill-down functionality across time hierarchies
+*✔ Interactive filtering across dimensions
+*✔ Identification of peak sales hours and high-demand periods
+*✔ Comparative performance analysis across pizza categories and sizes
 
 This framework transforms raw transactional data into actionable business intelligence, supporting data-driven operational and strategic decision-making.
 
@@ -123,8 +123,8 @@ The Power BI dashboard includes:
 
 ## ✨ What This Project Demonstrates
 
-✔ Data modeling using real-world business data
-✔ Insights through visual analytics
-✔ Practical use of DAX and Power Query
-✔ Dashboard storytelling for stakeholders
-✔ End-to-end analytical solution
+*✔ Data modeling using real-world business data
+*✔ Insights through visual analytics
+*✔ Practical use of DAX and Power Query
+*✔ Dashboard storytelling for stakeholders
+*✔ End-to-end analytical solution
