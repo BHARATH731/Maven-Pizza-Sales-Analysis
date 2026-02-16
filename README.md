@@ -12,11 +12,11 @@ The dashboard showcases metrics like total revenue, category-wise sales, peak sa
 
 This project was designed to:
 
-✔ Analyze total pizza sales and revenue
-✔ Break down sales by pizza category and size
-✔ Identify top–selling and low–performing products
-✔ Understand ordering trends by time and customer behavior
-✔ Build an intuitive Power BI dashboard for visualization and insights
+* Analyze total pizza sales and revenue
+* Break down sales by pizza category and size
+* Identify top–selling and low–performing products
+* Understand ordering trends by time and customer behavior
+* Build an intuitive Power BI dashboard for visualization and insights
 
 ---
 
@@ -65,16 +65,16 @@ These tables were used to build the data model required for reporting in Power B
 
 To ensure efficiency, scalability, and fast report performance, the following optimization strategies were implemented:
 
-* ✅ Implemented a **Star Schema data model** for optimal query performance
-* ✅ Maintained proper **Many-to-One relationships** with single-direction filtering
-* ✅ Removed unnecessary columns to reduce model size and memory usage
-* ✅ Avoided bi-directional relationships to prevent ambiguous filter propagation
-* ✅ Used **measures instead of calculated columns** wherever possible
-* ✅ Applied `SUMX()` only when row-level calculation was required
-* ✅ Minimized complex nested DAX expressions
-* ✅ Optimized cardinality by using appropriate key columns
-* ✅ Ensured clean data types (Date, Whole Number, Decimal) for efficient storage
-* ✅ Avoided redundant intermediate queries in Power Query
+ ✅ Implemented a **Star Schema data model** for optimal query performance
+ ✅ Maintained proper **Many-to-One relationships** with single-direction filtering
+ ✅ Removed unnecessary columns to reduce model size and memory usage
+ ✅ Avoided bi-directional relationships to prevent ambiguous filter propagation
+ ✅ Used **measures instead of calculated columns** wherever possible
+ ✅ Applied `SUMX()` only when row-level calculation was required
+ ✅ Minimized complex nested DAX expressions
+ ✅ Optimized cardinality by using appropriate key columns
+ ✅ Ensured clean data types (Date, Whole Number, Decimal) for efficient storage
+ ✅ Avoided redundant intermediate queries in Power Query
 
 These practices improved dashboard responsiveness and ensured scalable performance for larger datasets.
 
